@@ -1,0 +1,77 @@
+html, body{
+  padding: 0;
+  margin: 0;
+    width: 100%;
+    height: 100%;
+  background: url("./res/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.watch{
+  position: absolute;
+  top: 3rem;
+  left: 7rem;
+  width: 4rem;
+  z-index: 11;
+}
+
+footer{
+  position: absolute;
+
+  bottom: 1rem;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.by{
+  width: 180px;
+}
+
+.logo {
+  width: 6rem;
+  position: absolute;
+  top: 1.5rem;
+  left:0.6rem;
+}
+
+.bg2{
+    position: absolute;
+    top: -1rem;
+    left: 5rem;
+    width: 22rem;
+    z-index: 10;
+    
+}
+
+.zhi {
+position: absolute;
+top: 4rem;
+left: 11rem;
+width: 10rem;
+z-index: 11;
+}
+
+.center{
+    position: absolute;
+    top: 14rem;
+    width: 100%;
+    text-align: center;
+    z-index: 20;
+}
+
+.center-img{
+  width: 20rem;
+  height: 22rem;
+}
+
+.qrcord{
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  width: 13.5rem;
+  transform: translate(-50%, 0);
+}
